@@ -12,7 +12,7 @@ try{
     http_response_code(400);
     exit(0);
 }
-
+// cdestari
 if(!$isOk){
     $reply['error'] = $statement->errorInfo();
     http_response_code(400);
